@@ -1,7 +1,6 @@
 # Skopje Marathon Frontend
 
-This project is built with **React + Vite + TypeScript**.
-[Spring Boot REST API - Java](https://github.com/ilijana123/skopje_marathon_frontend)
+This project is built with **React + Vite + TypeScript** and communicates with [Spring Boot REST API - Java](https://github.com/ilijana123/skopje_marathon)
 
 ## Getting Started
 
