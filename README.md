@@ -5,12 +5,14 @@ This project is built with **React + Vite + TypeScript** and communicates with [
 ## Getting Started
 
 ### Install dependencies
-```bash
+```
 npm install
-'''
+```
 Run the development server
-bash
+```
 npm run dev
+```
+
 Open:
 http://localhost:5173
 
