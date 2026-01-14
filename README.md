@@ -7,6 +7,7 @@ This project is built with **React + Vite + TypeScript** and communicates with [
 ### Install dependencies
 ```bash
 npm install
+'''
 Run the development server
 bash
 npm run dev
