@@ -61,7 +61,6 @@ export const ShoppingCart = ({
         </Typography>
       </PaymentWarningBox>
       
-      <CartCardContent>
         <CartHeader>
           <CartTitleBox>
             <CartTitle variant="h6">
@@ -136,7 +135,6 @@ export const ShoppingCart = ({
             ПЛАТИ ОНЛАЈН →
           </PayOnlineButton>
         </PaymentButtonsBox>
-      </CartCardContent>
     </CartCard>
   );
 };

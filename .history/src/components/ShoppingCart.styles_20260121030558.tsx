@@ -9,12 +9,6 @@ export const PaymentWarningBox = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(3),
 }));
 
-export const CartCard = styled(Card)({
-});
-
-export const CartCardContent = styled(CardContent)({
-});
-
 export const CartHeader = styled(Box)({
   display: 'flex',
   alignItems: 'center',

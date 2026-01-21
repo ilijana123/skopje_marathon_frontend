@@ -55,7 +55,7 @@ export const ShoppingCartContainer = () => {
   };
 
   return (
-    <Box>
+    <Box}>
       <ShoppingCart
         selectedCategory={selectedCategory}
         contestantData={contestantData}

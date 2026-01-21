@@ -2,8 +2,6 @@ import { Box, IconButton, Typography } from '@mui/material';
 import { Close } from '@mui/icons-material';
 import { Category } from '../types';
 import {
-  CartCard,
-  CartCardContent,
   CartHeader,
   CartTitleBox,
   CartTitle,
@@ -54,14 +52,12 @@ export const ShoppingCart = ({
   const cartItemName = `${contestantData.firstName.toUpperCase()} ${contestantData.lastName.toUpperCase()}`;
 
   return (
-    <CartCard>
       <PaymentWarningBox>
         <Typography variant="body2">
           Треба да извршите уплата за да регистрацијата биде комплетирана. Регистрација без извршена уплата се смета за невалидна!
         </Typography>
       </PaymentWarningBox>
       
-      <CartCardContent>
         <CartHeader>
           <CartTitleBox>
             <CartTitle variant="h6">
@@ -136,7 +132,6 @@ export const ShoppingCart = ({
             ПЛАТИ ОНЛАЈН →
           </PayOnlineButton>
         </PaymentButtonsBox>
-      </CartCardContent>
     </CartCard>
   );
 };

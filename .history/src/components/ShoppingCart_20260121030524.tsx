@@ -1,5 +1,5 @@
 import { Box, IconButton, Typography } from '@mui/material';
-import { Close } from '@mui/icons-material';
+import {  Close } from '@mui/icons-material';
 import { Category } from '../types';
 import {
   CartCard,
@@ -8,6 +8,9 @@ import {
   CartTitleBox,
   CartTitle,
   CartDivider,
+  OrgBox,
+  OrgName,
+  OrgEmail,
   CartItemBox,
   CartItemRow,
   CartItemName,

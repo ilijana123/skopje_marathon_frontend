@@ -12,9 +12,6 @@ export const PaymentWarningBox = styled(Box)(({ theme }) => ({
 export const CartCard = styled(Card)({
 });
 
-export const CartCardContent = styled(CardContent)({
-});
-
 export const CartHeader = styled(Box)({
   display: 'flex',
   alignItems: 'center',

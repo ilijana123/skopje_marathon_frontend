@@ -3,7 +3,6 @@ import { Close } from '@mui/icons-material';
 import { Category } from '../types';
 import {
   CartCard,
-  CartCardContent,
   CartHeader,
   CartTitleBox,
   CartTitle,

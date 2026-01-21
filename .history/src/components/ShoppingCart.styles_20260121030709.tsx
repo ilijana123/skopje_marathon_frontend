@@ -10,9 +10,16 @@ export const PaymentWarningBox = styled(Box)(({ theme }) => ({
 }));
 
 export const CartCard = styled(Card)({
+  borderRadius: 8,
+  boxShadow: '0px 2px 8px rgba(0,0,0,0.08)',
+  border: '1px solid #e0e0e0',
+  backgroundColor: '#fafafa',
 });
 
 export const CartCardContent = styled(CardContent)({
+  display: 'flex',
+  flexDirection: 'column',  
+  gap: 16,
 });
 
 export const CartHeader = styled(Box)({

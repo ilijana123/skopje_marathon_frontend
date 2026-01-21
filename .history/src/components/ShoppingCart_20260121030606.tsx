@@ -2,8 +2,6 @@ import { Box, IconButton, Typography } from '@mui/material';
 import { Close } from '@mui/icons-material';
 import { Category } from '../types';
 import {
-  CartCard,
-  CartCardContent,
   CartHeader,
   CartTitleBox,
   CartTitle,
@@ -61,7 +59,6 @@ export const ShoppingCart = ({
         </Typography>
       </PaymentWarningBox>
       
-      <CartCardContent>
         <CartHeader>
           <CartTitleBox>
             <CartTitle variant="h6">

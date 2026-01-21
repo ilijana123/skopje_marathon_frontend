@@ -13,6 +13,10 @@ export const CartCard = styled(Card)({
 });
 
 export const CartCardContent = styled(CardContent)({
+  display: 'inline-flex',
+  flexDirection: 'column',
+  gap: 16,
+  width: 'auto',
 });
 
 export const CartHeader = styled(Box)({

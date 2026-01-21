@@ -55,7 +55,6 @@ export const ShoppingCartContainer = () => {
   };
 
   return (
-    <Box>
       <ShoppingCart
         selectedCategory={selectedCategory}
         contestantData={contestantData}
@@ -64,6 +63,5 @@ export const ShoppingCartContainer = () => {
         onPayByInvoice={handlePayByInvoice}
         onPayOnline={handlePayOnline}
       />
-    </Box>
   );
 };      

@@ -64,6 +64,5 @@ export const ShoppingCartContainer = () => {
         onPayByInvoice={handlePayByInvoice}
         onPayOnline={handlePayOnline}
       />
-    </Box>
   );
 };      

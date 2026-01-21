@@ -10,9 +10,17 @@ export const PaymentWarningBox = styled(Box)(({ theme }) => ({
 }));
 
 export const CartCard = styled(Card)({
+  borderRadius: 8,
+  boxShadow: '0px 2px 8px rgba(0,0,0,0.08)',
+  border: '1px solid #e0e0e0',
+  backgroundColor: '#fafafa',
 });
 
 export const CartCardContent = styled(CardContent)({
+  //padding: 24,
+  display: 'flex',
+  flexDirection: 'column',  
+  gap: 16,
 });
 
 export const CartHeader = styled(Box)({
@@ -37,6 +45,20 @@ export const CartTitle = styled(Typography)({
 
 export const CartDivider = styled(Divider)({
   marginBottom: 16,
+});
+
+export const OrgBox = styled(Box)({
+  marginBottom: 24,
+});
+
+export const OrgName = styled(Typography)({
+  fontWeight: 600,
+  marginBottom: 4,
+  fontSize: '0.875rem',
+});
+
+export const OrgEmail = styled(Typography)({
+  fontSize: '0.75rem',
 });
 
 export const CartItemBox = styled(Box)({
@@ -67,8 +89,9 @@ export const CartItemPrice = styled(Typography)({
 export const TotalBox = styled(Box)({
   display: 'flex',
   justifyContent: 'flex-end',
-  gap: 8,
-  margin: '8px 0 16px',
+  alignItems: 'center',
+  marginBottom: 24,
+  marginTop: 16,
 });
 
 export const TotalLabel = styled(Typography)({
@@ -106,6 +129,7 @@ export const PaymentButtonsBox = styled(Box)({
   justifyContent: 'flex-end',
   gap: 8,
 });
+
 
 export const BankButton = styled(Button)({
   textTransform: 'none',
