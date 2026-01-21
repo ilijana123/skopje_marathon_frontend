@@ -1,0 +1,26 @@
+import { RegisterTab } from "../components/RegisterTab";
+import { useContestants } from "../hooks/useContestants";
+
+export const RegisterContainer = () => {
+  const {
+    formData,
+    setFormData,
+    formError,
+    formSuccess,
+    handleRegister,
+    contestants,
+    ...
+  } = useContestants();
+
+  return (
+    <RegisterTab
+      formData={formData}
+      setFormData={setFormData}
+      formError={formError}
+      formSuccess={formSuccess}
+      onRegister={() => handleRegister()}
+      selectedCategory={null}
+      setSelectedCategory={() => {}}
+    />
+  );
+};
